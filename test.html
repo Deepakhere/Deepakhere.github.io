@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D>PORT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="main-container">
+        <!-- Navbar section -->
+        <nav class="navbar navbar-inverse" style="border-radius: 0%;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">D>PORT</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a class="navbar-brand" id="dport" href="#" style="color: #fff;">D>PORT</a></li>
+                        <li class=""><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Another section -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="https://source.unsplash.com/800x400/?web-dev" alt="Image">
+                                <div class="carousel-caption">
+                                    <h3>Web Developer</h3>
+                                    <p>You Didn't Come This Far To Only Come This Far.</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="https://source.unsplash.com/800x400/?App-developer" alt="Image">
+                                <div class="carousel-caption">
+                                    <h3>Journey</h3>
+                                    <p>The Journey of a thousand miles begins with a single step.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="well">
+                        <!-- Container (About Section) -->
+                        <div id="about" class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>About Me
+                                        <a href="https://github.com/DeepakHere">
+                                            <span class="glyphicon glyphicon-qrcode"
+                                                style="font-size: larger; padding-left:80px;"></span>
+                                        </a>
+                                    </h2><br>
+                                    <h3>
+                                        Hii DeepakHere
+                                    </h3>
+                                    <h5 style="font-family: cursive;"><br>At present, I am pursuing B.Tech from
+                                        Radharaman Institute of Technology and
+                                        Science, Bhopal, specialization in COMPUTER SCIENCE and ENGINEERING.
+
+                                        I am interested in #webdevelopment and I like to keep updates and talk about
+                                        trending and upcoming technologies...
+                                    </h5><br>
+                                    <button type="button" class="btn btn-success btn-md" data-toggle="modal"
+                                        data-target="#myModal">Get in Touch</button>
+
+                                    <div id="myModal" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close"
+                                                        data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Contact Us</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <label for="exampleInputEmail1">Email address</label>
+                                                            <input type="email" class="form-control"
+                                                                id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                                placeholder="Enter email">
+                                                            <small id="emailHelp" class="form-text text-muted">We'll
+                                                                never share your email with anyone else.</small>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="exampleInputPassword1">Password</label>
+                                                            <input type="password" class="form-control"
+                                                                id="exampleInputPassword1" placeholder="Password">
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input"
+                                                                id="exampleCheck1">
+                                                            <label class="form-check-label" for="exampleCheck1">Check me
+                                                                out</label>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModal">
+                                        More
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close"
+                                                        data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">INTERNSHIPS</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Web Development Internship
+                                                        @CloudTechDigital (May, 2023 – Present) <br>
+                                                        • Daily practice using HTML, Bootstrap, Tailwind CSS and React
+                                                        to enhance function clarity and user experience on web
+                                                        pages. <br>
+                                                        • I made clone of FabHotel and Goibibo. <br>
+                                                        • Currently working with senior developer.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="container text-center">
+            <h3>What I Do </h3>
+            <br>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>Focused on Projects</h3>
+                    <a href="https://github.com/DeepakGupta14/Hotel-Theme">
+                        <img src="https://source.unsplash.com/800x400/?web-design-chart" class="img-responsive"
+                        style="width:100%; border-radius:10px" alt="Image">
+                    </a>
+                    <p>Current Project 1</p>
+                    <a href="https://github.com/DeepakGupta14/Room-Booking">
+                        <img src="https://source.unsplash.com/800x400/?web-tech" class="img-responsive"
+                        style="width:100%; border-radius:10px" alt="Image">
+                    </a>
+                    <p>Current Project 2</p>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://github.com/DeepakGupta14/Table-axios">
+                        <img src="https://source.unsplash.com/800x400/?web-project" class="img-responsive"
+                        style="width:100%;border-radius:10px" alt="Image">
+                    </a>
+                    <p>Recent Completed Project </p>
+                    <a href="https://github.com/DeepakGupta14/Table-Chart">
+                        <img src="https://source.unsplash.com/800x400/?layout" class="img-responsive"
+                        style="width:100%;border-radius:10px" alt="Image">
+                    </a>
+                    <p>Recent Completed Project </p>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Todos For Project</h3>
+                    <div class="well">
+                        <strong>Gather Your Requirement</strong>
+                        <p>Always clear my project confusion to gather requirements of product.</p>
+                    </div>
+                    <div class="well">
+                        <strong>Plan my Stage</strong>
+                        <p>It helps to define the problem and scope of any existing systems,
+                            as well as determine the objectives for their new systems
+                            It gives a logical view to manage projects in steps.</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="well">
+                        <strong>Design Project</strong>
+                        <p>outline the details for the overall application, alongside specific aspects, such as its:
+
+                            • User interfaces
+                            • System interfaces
+                            • Backend Schema
+
+                        </p>
+
+                    </div>
+                    <div class="well">
+                        <strong>Development Stage</strong>
+                        <p>And the last but not the least Develop my projects according to plan and design which I
+                            created
+                            for better Development experience...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="container text-center">
+            <h3>What I Have Created</h3>
+            <br>
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="https://github.com/DeepakGupta14/fab-hotel">
+                         <img src="https://source.unsplash.com/150x80/?Hotel-reception" class="img-responsive"
+                        style="width:100%;border-radius: 6px;" alt="Image">
+                    </a>
+                    <p>FabHotel Clone</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://github.com/DeepakGupta14">
+                        <img src="https://source.unsplash.com/150x80/?reception" class="img-responsive"
+                        style="width:100%;border-radius: 6px;" alt="Image">
+                    </a>
+                    <p>Goibibo</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://deepakhere.github.io/dashboard/">
+                        <img src="https://source.unsplash.com/150x80/?progress-chart" class="img-responsive"
+                        style="width:100%;border-radius: 6px;" alt="Image">
+                    </a>
+                    <a href="https://github.com/Deepakhere/dashboard" style="text-decoration: none; color: rgb(50, 50, 50);">Dashboard</a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://github.com/DeepakGupta14/multi-Stepper">
+                        <img src="https://source.unsplash.com/150x80/?graph" class="img-responsive"
+                        style="width:100%;border-radius: 6px;" alt="Image">
+                    </a>
+                    <p>Multi-Stepper</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://deepakhere.github.io/nft/">
+                        <img src="https://source.unsplash.com/150x80/?web-nft" class="img-responsive"
+                        style="width:100%;border-radius: 6px;" alt="Image">
+                    </a>
+                    <a href="https://github.com/Deepakhere/nft" style="text-decoration: none; color: rgb(50, 50, 50);">NFT Design</a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://deepakhere.github.io/anim/">
+                        <img src="https://source.unsplash.com/150x80/?progress" class="img-responsive"
+                        style="width:100%;border-radius: 6px;" alt="Image">
+                    </a>
+                    <a href="https://github.com/Deepakhere/anim" style="text-decoration: none; color: rgb(50, 50, 50);">CSS Animation</a>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- Interest -->
+
+        <div class="jumbotron container" style="border-radius: 20px;">
+            <h2 style="font-weight: bold; padding-bottom:20px ; text-align: center;">The Web Development Blog</h2>
+            <p>This is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+            <p>
+              <a class="btn btn-lg btn-success" href="https://codingroar.blogspot.com" role="button" style="display:flex; justify-content: center;">View Docs/Blog »</a>
+            </p>
+          </div>
+
+        <!-- Footer -->
+        <footer class="footer-bs">
+            <div class="row">
+                <div class="col-md-3 footer-brand animated fadeInLeft">
+                    <h2>D>PORT</h2>
+                    <p>Hii👋, This is DeepakHere #full-Stack Web Developer.
+                        I Always Develop to use new Technologies such as currently I am using React.js, Tailwind and
+                        node.js. </p>
+                    <p>© 2023 DeepakHere, All rights reserved</p>
+                </div>
+                <div class="col-md-4 footer-nav animated fadeInUp">
+                    <h4>PROJECTS —</h4>
+                    <div class="col-md-6">
+                        <ul class="pages">
+                            <li><a href="#">HOTEL</a></li>
+                            <li><a href="#">NFT BASED WEB</a></li>
+                            <li><a href="#">ANIMATIONS</a></li>
+                            <li><a href="#">SERVICES BASED</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-social animated fadeInDown">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/deepgupta14/"><i class="fa fa-linkedin" style="color: #007bff;"></i> LinkedIn</a></li>
+                        <li><a href="https://www.github.com/DeepakHere"><i class="fa fa-github"></i> Github</a></li>
+                        <li><a href="https://www.facebook.com/codingsmash/"><i class="fa fa-facebook" style="color: #007bff;"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/thedeep_14/"><i class="fa fa-instagram" style="background:-webkit-linear-gradient(#4f5bd5,#d62976,#fa7e1e); 
+                    -webkit-background-clip: text;-webkit-text-fill-color: transparent;"></i> Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-ns animated fadeInRight">
+                    <h4><i class="fa fa-youtube" style="color: red;"></i> YOUTUBE</h4>
+                    <p><a href="https://youtube.com/c/codingclasses"
+                            style="color:rgb(111, 228, 68);">@Thevirtualmentor,</a>
+                        This is my
+                        Youtube channel you go through it for further tutorials with explanation.</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <a href="https://youtube.com/c/codingclasses">
+                                <button class="btn btn-default" type="button" style="margin-left: 10px;">
+                                    <i class="fa fa-youtube" style="color: red;"></i></button>
+                            </a>
+                        </span>
+                    </div><!-- /input-group -->
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
