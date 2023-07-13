@@ -31,7 +31,7 @@
         display: none;
     }
 }
-@media (max-width: 1360px) {
+@media (max-width: 1560px) {
     .navbar-brand{
         display: none;
     }
